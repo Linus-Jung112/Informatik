@@ -1,6 +1,10 @@
-gewicht = int(input ("Gib dein Gewicht ein(kg):  "))
-groesse = int(input ("Gib deine Groesse ein(cm):  "))
+def bmitesterschule():
 
-bmi = 10000 * gewicht / (groesse *  groesse)
+    gewicht = int(input ("Gib dein Gewicht ein (kg):  "))
+    groesse = int(input ("Gib deine Groesse ein (cm):  "))
 
-print("Dein BMI betraegt:  ", bmi)
+    bmi = 10000 * gewicht / (groesse *  groesse)
+
+    print("Dein BMI betraegt:  ", bmi)
+
+bmitesterschule()
